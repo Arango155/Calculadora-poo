@@ -19,4 +19,10 @@ public class Proyecto {
         float suma= a+b; 
         return suma;
     }
+    
+       public float resta (float a, float b){
+        float resta= a-b; 
+        return resta;
+    }
+      
 }

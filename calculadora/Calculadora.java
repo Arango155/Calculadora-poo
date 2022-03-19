@@ -32,10 +32,15 @@ public class Calculadora {
     
     calculadora.suma(a, b);
     
-    
+    System.out.println("La suma es de:");
     System.out.println(calculadora.suma(a, b));
     
+    System.out.println("La resta es de:");
+     System.out.println(calculadora.resta(a, b));
+    
     }
+    
+    
     
     
    
