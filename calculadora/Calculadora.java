@@ -40,6 +40,9 @@ public class Calculadora {
      
      System.out.println("El valor de la multiplicacion entre ambos numeros es:");
      System.out.println(calculadora.multi(a, b));
+     
+       System.out.println("El valor de la division entre ambos numeros es:");
+     System.out.println(calculadora.div(a, b));
     
     }
     
