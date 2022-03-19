@@ -44,8 +44,14 @@ public class Calculadora {
        System.out.println("El valor de la division entre ambos numeros es:");
      System.out.println(calculadora.div(a, b));
     
-    }
+     System.out.println("El valor de la potencia del primer numero es de:");
+     System.out.println(calculadora.pota(a));
     
+     System.out.println("El valor de la potencia del segundo numero es de:");
+     System.out.println(calculadora.potb(b));
+    
+   
+    }
     
     
     

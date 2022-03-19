@@ -34,5 +34,15 @@ public class Proyecto {
         float div= a/b; 
         return div;
     }
+        
+        public float pota (float a){
+        float pota= a*a; 
+        return pota;
+    }
+        
+        public float potb (float b){
+        float potb= b*b; 
+        return potb;
+    }
       
 }
