@@ -24,5 +24,10 @@ public class Proyecto {
         float resta= a-b; 
         return resta;
     }
+       
+        public float multi (float a, float b){
+        float multi= a*b; 
+        return multi;
+    }
       
 }

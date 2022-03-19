@@ -32,11 +32,14 @@ public class Calculadora {
     
     calculadora.suma(a, b);
     
-    System.out.println("La suma es de:");
+    System.out.println("El valor de la suma entra ambos numeros es:");
     System.out.println(calculadora.suma(a, b));
     
-    System.out.println("La resta es de:");
+    System.out.println("El valor de la resta entre ambos numeros es:");
      System.out.println(calculadora.resta(a, b));
+     
+     System.out.println("El valor de la multiplicacion entre ambos numeros es:");
+     System.out.println(calculadora.multi(a, b));
     
     }
     
