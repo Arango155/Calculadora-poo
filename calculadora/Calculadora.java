@@ -22,10 +22,13 @@ public class Calculadora {
     
     Scanner entrada=new Scanner(System.in);
     
-    System.out.println("Ingrese el primer numero");
+    System.out.println("Bienvenido a la calculadora para la funcion de suma, resta, multiplicacion, division, potencia y raiz de los numeros que ingrese");
+    System.out.println("Se le solicita que ingrese los numeros que se le piden acontinuacion");
+    
+    System.out.println("Ingrese el primer numero: ");
     a=entrada.nextFloat();
     
-    System.out.println("Ingrese el segundo numero");
+    System.out.println("Ingrese el segundo numero: ");
     b=entrada.nextFloat();
     
     Proyecto calculadora=new Proyecto();
@@ -50,7 +53,12 @@ public class Calculadora {
      System.out.println("El valor de la potencia del segundo numero es de:");
      System.out.println(calculadora.potb(b));
     
-   
+     System.out.println("El valor de la raiz cuadrada del primer numero es de:");
+     System.out.println(calculadora.raiza(a));
+     
+      System.out.println("El valor de la raiz cuadrada del segundo numero es de:");
+     System.out.println(calculadora.raizb(b));
+     
     }
     
     

@@ -45,4 +45,15 @@ public class Proyecto {
         return potb;
     }
       
+        public float raiza (float a){
+        float raiza= (float) Math.sqrt(a); 
+     
+        return raiza;
+    }
+    
+        public float raizb (float b){
+        float raizb= (float) Math.sqrt(b); 
+     
+        return raizb;
+    }
 }
