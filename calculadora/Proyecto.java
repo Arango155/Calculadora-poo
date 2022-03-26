@@ -56,4 +56,37 @@ public class Proyecto {
      
         return raizb;
     }
+      
+         public float randomx (float x){
+        float randomx= (float) (Math.random()*10); 
+     
+        return randomx;
+
+    }
+     
+        public float raizx (float x){
+        float raizx= (float) Math.sqrt(x); 
+     
+        return raizx;
+    }
+    
+        public float raizy (float y){
+        float raizy= (float) Math.sqrt(y); 
+     
+        return raizy;
+    }
+        
+        public float pot (float x, float y){
+        float pot= (float) Math.pow(x,y);
+     
+        return pot;
+    }
+       
+        public float pi (float x){
+        float pi= (float) Math.PI*x;
+     
+        return pi;
+    }
+   
+   
 }

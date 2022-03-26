@@ -19,6 +19,7 @@ public class Calculadora {
         // TODO code application logic here
     
      float a,b;
+     float x,y;
     
     Scanner entrada=new Scanner(System.in);
     
@@ -59,10 +60,36 @@ public class Calculadora {
       System.out.println("El valor de la raiz cuadrada del segundo numero es de:");
      System.out.println(calculadora.raizb(b));
      
+     System.out.println("Ahora se haran algunas operaciones especiales en la calculadora ");
+     
+    System.out.println("Se le solicita que ingrese los numeros que se le piden acontinuacion");
+    
+    System.out.println("Ingrese el primer numero (base): ");
+    x=entrada.nextFloat();
+    
+    System.out.println("Ingrese el segundo numero (exponente): ");
+    y=entrada.nextFloat();
+    
+        System.out.println("El valor de la potencia de la base de su primer numero y el exponente del segundo es:");
+     System.out.println(calculadora.pot(x,y));
+         
+        System.out.println("El valor de la raiz cuadrada del primer numero es de:");
+     System.out.println(calculadora.raizx(x));
+     
+      System.out.println("El valor de la raiz cuadrada del segundo numero es de:");
+     System.out.println(calculadora.raizy(y));
+     
+     System.out.println("El valor random de su numero random es:");
+     System.out.println(calculadora.randomx(x));
+     
+     
+     System.out.println("El primer numero multiplicado por pi es:");
+     System.out.println(calculadora.pi(x));
+    
+  
     }
     
     
     
-   
    
 }
